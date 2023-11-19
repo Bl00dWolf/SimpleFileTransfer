@@ -42,7 +42,7 @@ def main():
                                               font=('Bold', 20), bg_color='transparent')
     files_pg_button.place(relx=0.5, rely=0.1, anchor=customtkinter.CENTER)
 
-    # Пункт меню, кнопка "Передача файлов"
+    # Пункт меню, кнопка "Настройки"
     settings_pg_button = customtkinter.CTkButton(master=navigation_panel, text='Настройки',
                                                  command=lambda: settings_button_pressed(settings_pg_button),
                                                  font=('Bold', 20), bg_color='transparent')
